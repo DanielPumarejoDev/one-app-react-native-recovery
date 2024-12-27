@@ -77,3 +77,17 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# TO BUILD APP ANDROID
+
+- npm start -- --reset-cache
+- cd android ./gradlew clean
+- cd ..
+- cd android ./gradlew assembleRelease
+- npx react-native run-android
+- a
+
+- **No olvidar la siguiente configuiracion  si esta iniciando de cero**
+
+- [BUILD APK](https://www.youtube.com/watch?v=2yHI0e4MzUE)
+- [FIX FOUNDED](https://stackoverflow.com/questions/78244859/i-got-execution-failed-for-task-appconfigurecmakedebugarm64-v8a-while-buil)
